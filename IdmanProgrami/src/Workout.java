@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Idman {
+public class Workout {
     public void work(Account account){
         Login login = new Login();
         
@@ -150,85 +150,3 @@ public class Idman {
         
     }    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*public static double bmi_calculation(){ 
-    // bmi = body mass index
-    Scanner scanner = new Scanner(System.in);
-        System.out.print("Please enter your weight example(80.5):");
-        double weight = scanner.nextDouble();
-        System.out.print("Please enter your height example(1.75) :");
-        double height = scanner.nextDouble();
-        
-        double bmi = weight / (height * height);
-        
-        if(bmi < 18.5){
-            System.out.print("thin (" + bmi + ")");
-        }
-        else if(bmi < 25){
-            System.out.print("normal (" + bmi + ")");
-        }
-        else if(bmi < 30){
-            System.out.print("over weight (" + bmi + ")");            
-        }
-        else{
-            System.out.print("obese (" + bmi + ")");
-        }
-            
-    }*/
