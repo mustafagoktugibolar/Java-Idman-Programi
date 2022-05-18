@@ -1,10 +1,10 @@
 public class Main {
     public static void main (String [] args){
-        Idman idman = new Idman();
+        Workout workout = new Workout();
         
         Account account = new Account("Goktug Ibolar", "123123",88,1.78);
         
-        idman.work(account);
+        workout.work(account);
         System.out.println("Leaving...");
                 
         
